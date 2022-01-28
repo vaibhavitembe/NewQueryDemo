@@ -6,9 +6,11 @@ import lombok.Setter;
 @Getter
 @Setter
 
-public class CustomerReq {
+public class ChangePasswordReqDto {
+
+
+    private String newPassword;
     private Integer custId;
-    private String custName;
-    private String status;
+    private String oldPassword;
 
 }

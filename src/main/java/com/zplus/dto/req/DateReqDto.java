@@ -7,9 +7,10 @@ import java.util.Date;
 
 @Getter
 @Setter
-public class CustReq {
 
-    private Date custStartDate;
-    private Date custEndDate;
+public class DateReqDto {
+
+    private Date custJoiningDate;
+
 
 }

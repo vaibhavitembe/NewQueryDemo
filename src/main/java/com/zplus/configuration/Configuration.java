@@ -6,10 +6,9 @@ import org.springframework.context.annotation.Bean;
 
 public class Configuration {
     @Bean
-    SessionFactory sessionFactory(HibernateEntityManagerFactory hibernateEntityManagerFactory)
-    {
-
+    SessionFactory sessionFactory(HibernateEntityManagerFactory hibernateEntityManagerFactory) {
         return hibernateEntityManagerFactory.getSessionFactory();
 
     }
+
 }

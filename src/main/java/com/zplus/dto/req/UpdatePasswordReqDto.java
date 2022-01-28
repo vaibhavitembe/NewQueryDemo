@@ -5,10 +5,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-
-public class CustomerReq {
+public class UpdatePasswordReqDto {
     private Integer custId;
-    private String custName;
-    private String status;
+    private String password;
 
 }
